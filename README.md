@@ -25,7 +25,7 @@ source ast-env/bin/activate
 
 Go to ast-env directory
 ``` 
-git clone https://github.com/mushi333/2021-FIT4003-SBSE-for-self-driving-cars.git
+git clone https://github.com/sisl/AdaptiveStressTestingToolbox.git
 cd AdaptiveStressTestingToolbox
 git submodule update --init --recursive
 sudo chmod a+x scripts/install_all.sh
