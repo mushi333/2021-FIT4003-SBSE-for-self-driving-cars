@@ -16,6 +16,7 @@ python3.7 --version
 ### **Steps to create a virtual environment**
 ```
 mkdir python-env
+sudo apt install virtualenv
 virtualenv --python=python3.7 ast-env
 ls ast-env/lib
 source ast-env/bin/activate
