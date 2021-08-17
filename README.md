@@ -8,7 +8,7 @@
 ### **Steps to install python 3.7**
 ```
 sudo apt update
-install software-properties-common
+pip install software-properties-common
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt install python3.7
 python3.7 --version
