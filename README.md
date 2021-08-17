@@ -17,14 +17,14 @@ python3.7 --version
 ```
 mkdir python-env
 sudo apt install virtualenv
+cd python-env
 virtualenv --python=python3.7 ast-env
 ls ast-env/lib
 source ast-env/bin/activate
 ```
 ### **Steps to install ast-toolbox for Linux**
-
-Go to ast-env directory
 ``` 
+cd ast-env
 git clone https://github.com/sisl/AdaptiveStressTestingToolbox.git
 cd AdaptiveStressTestingToolbox
 git submodule update --init --recursive
@@ -38,7 +38,8 @@ sudo apt-get install libpython3.7-dev
 pip install bsddb3
 pip install torch==1.3.0+cpu torchvision==0.4.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
 pip install tensorflow==1.15.3
-pip install dataclasses==0.8
+pip install dataclasses==0.6
 pip install ast-toolbox
+python setup.py install
 ```
-
+follow step 5 & 6 in the tutorial of the documentation
