@@ -2,7 +2,8 @@
 
 ### **Prerequisites**
 - Python 3.7
-- Configuration for Linux Ubuntu 20.04
+- Ubuntu 20.04 (VM or standalone)
+- Configuration steps for Ubuntu 20.04
 - Git and pip installed
 
 ### **Steps to install python 3.7**
@@ -42,4 +43,4 @@ pip install dataclasses==0.6
 pip install ast-toolbox
 python setup.py install
 ```
-follow step 5 & 6 in the tutorial of the documentation
+follow step 5 & 6 in the ast-toolbox tutorial of the documentation for the rest of the steps
