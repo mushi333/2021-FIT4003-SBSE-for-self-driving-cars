@@ -48,7 +48,7 @@ follow step 5 & 6 in the ast-toolbox tutorial of the documentation for the rest 
 Alternatively, you can follow these steps in the PyCharm IDE to run the application by using venv.
 
 ### **Steps to run app.py through PyCharm**
-* Create new PyCharm project
+* Create a new PyCharm project
 * Install the needed dependencies from above
 * Modify app.py to suit your requirements
 * Run app.py
