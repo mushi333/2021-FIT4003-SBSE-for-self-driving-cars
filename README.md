@@ -5,6 +5,7 @@
 - Ubuntu 20.04 (VM or standalone)
 - Configuration steps for Ubuntu 20.04
 - Git and pip installed
+- Optional - PyCharm
 
 ### **Steps to install python 3.7**
 ```
@@ -43,4 +44,11 @@ pip install dataclasses==0.6
 pip install ast-toolbox
 python setup.py install
 ```
-follow step 5 & 6 in the ast-toolbox tutorial of the documentation for the rest of the steps
+follow step 5 & 6 in the ast-toolbox tutorial of the documentation for the rest of the steps.
+Alternatively, you can follow these steps in the PyCharm IDE to run the application by using venv.
+
+### **Steps to run app.py through PyCharm**
+* Create new PyCharm project
+* Install the needed dependencies from above
+* Modify app.py to suit your requirements
+* Run app.py
